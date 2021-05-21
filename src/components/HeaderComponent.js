@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem, Jumbotron } from 'reactstrap';
+import { Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem, Jumbotron, Button, } from 'reactstrap';
 import { NavLink } from 'react-router-dom'
 
 const Header = () => {
@@ -20,25 +20,27 @@ const Header = () => {
 
               <NavItem >
                 <NavLink className="nav-link" to="/home">
-                  <span className="fa fa-home fa-lg"></span>Home
+                  <span className="fa fa-home fa-lg"></span>{" "} Home
                 </NavLink>
               </NavItem>
-
               <NavItem >
                 <NavLink className="nav-link" to="/aboutus">
-                  <span className="fa fa-info fa-lg"></span>About Us
+                  <span className="fa fa-info fa-lg"></span>{" "}About Us
                 </NavLink>
                 </NavItem>
 
               <NavItem >
                 <NavLink className="nav-link" to="/menu">
-                  <span className="fa fa-list fa-lg"></span>Menu
+                  <span className="fa fa-list fa-lg"></span>{" "}Menu
                   </NavLink>
               </NavItem>
               <NavItem >
                 <NavLink className="nav-link" to="/contactus">
-                  <span className="fa fa-address-card fa-lg"></span>Contact
+                  <span className="fa fa-address-card fa-lg"></span>{" "}Contact
                 </NavLink>
+              </NavItem>
+              <NavItem>
+              <a href="https://rzp.io/l/I8qNtpm" target="_blank"><Button color="primary">Donate Now</Button></a>
               </NavItem>
             </Nav>
           </Collapse>

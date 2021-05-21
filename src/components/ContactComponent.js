@@ -25,7 +25,7 @@ class Contact extends Component {
                             <Link to="/home">Home</Link>
                         </BreadcrumbItem>
                         <BreadcrumbItem active>
-                            Contact Us
+                            Contact Us <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HDW3OnVcjPjgDg" async> </script> </form>
               </BreadcrumbItem>
                     </Breadcrumb>
                     <div className="col-12">
